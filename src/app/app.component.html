@@ -1,0 +1,72 @@
+<hello name="{{ name }}"></hello>
+
+<div class="table-responsive">
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">Hospital Name</th>
+				<th scope="col">City</th>
+				<th scope="col">State</th>
+				<th scope="col" class="text-right">Total Discharges</th>
+				<th scope="col" class="text-right">Average Covered Charges</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td scope="row">Alaska Regional Hospital</td>
+				<td scope="row">Anchorage</td>
+				<td scope="row">AK</td>
+				<td scope="row" class="text-right">23</td>
+				<td scope="row" class="text-right">$34,805.13</td>
+			</tr>
+			<tr>
+				<td scope="row">Banner Samaritan Medical Center</td>
+				<td scope="row">Phoenix</td>
+				<td scope="row">AZ</td>
+				<td scope="row" class="text-right">11</td>
+				<td scope="row" class="text-right">$34,803.81</td>
+			</tr>
+			<tr>
+				<td scope="row">
+					<a class="btn btn-primary" (click)="collapse.toggle()" role="button">
+						Collapse
+					</a>
+				</td>
+				<td scope="row">Eureka</td>
+				<td scope="row">CA</td>
+				<td scope="row" class="text-right">48</td>
+				<td scope="row" class="text-right">$44,664.45</td>
+			</tr>
+			<div app-collapse #collapse>
+				<tr>
+					<td scope="row">North Colorado Mendical Center</td>
+					<td scope="row">Greeley</td>
+					<td scope="row">CO</td>
+					<td scope="row" class="text-right">16</td>
+					<td scope="row" class="text-right">$33,135.68</td>
+				</tr>
+				<tr>
+					<td scope="row">Oak Valley Medical Center</td>
+					<td scope="row">Charlston</td>
+					<td scope="row">VA</td>
+					<td scope="row" class="text-right">31</td>
+					<td scope="row" class="text-right">$37,459.12</td>
+				</tr>
+			</div>
+			<tr>
+				<td scope="row">North Colorado Mendical Center</td>
+				<td scope="row">Greeley</td>
+				<td scope="row">CO</td>
+				<td scope="row" class="text-right">16</td>
+				<td scope="row" class="text-right">$33,135.68</td>
+			</tr>
+			<tr>
+				<td scope="row">Oak Valley Medical Center</td>
+				<td scope="row">Charlston</td>
+				<td scope="row">VA</td>
+				<td scope="row" class="text-right">31</td>
+				<td scope="row" class="text-right">$37,459.12</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

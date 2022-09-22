@@ -1,0 +1,10 @@
+/* Add application styles & imports to this file! */
+text-truncate{
+      overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.blackborder{
+  border-color: black;
+  border-width: 1px;
+}
